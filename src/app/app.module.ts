@@ -20,6 +20,10 @@ import { ShoppingDiningComponent } from './shopping-dining/shopping-dining.compo
 import { TransportationComponent } from './transportation/transportation.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ContentComponent } from './content/content.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -46,7 +50,11 @@ import { HomeComponent } from './home/home.component';
     ShoppingDiningComponent,
     TransportationComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    NavbarComponent,
+    ContentComponent,
+    FooterComponent
   ],
   bootstrap: [
     AppComponent
